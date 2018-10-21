@@ -25,7 +25,7 @@ var iLoveTheBeatles = function(number) {
  do {
    statement[j] = ('I love the Beatles!')
    j++;
- } while (number != 17);
+ } while (j <= number);
 console.log(statement);
 return (statement);
 }
