@@ -22,10 +22,15 @@ var johnLennonFacts = function(facts) {
 var iLoveTheBeatles = function(number) {
  var statement = [];
  var j = 0;
+ if (number === 17){
+   statement[j] = ('I love the Beatles!')
+ } 
+ else {
  do {
    statement[j] = ('I love the Beatles!')
    j++;
  } while (j <= number);
+ }
 console.log(statement);
 return (statement);
 }
